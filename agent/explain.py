@@ -1,0 +1,1 @@
+"""Explains query results in plain language."""

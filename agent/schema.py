@@ -1,0 +1,1 @@
+"""Pydantic models for the SQL Data Analyst Agent."""

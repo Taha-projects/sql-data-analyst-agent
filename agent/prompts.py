@@ -1,0 +1,1 @@
+"""Prompt templates for generating SQL safely."""

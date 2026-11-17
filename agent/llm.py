@@ -1,0 +1,1 @@
+"""OpenRouter-compatible language model client."""
