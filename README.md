@@ -70,12 +70,12 @@ Questions use a `dev` split for development and a `test` split kept for held-out
 
 ### Results
 
-Fill these cells only from actual evaluation CSVs. The current results table has no reported measurements.
+These entries are from one actual evaluation run. The held-out question set is small, so this run is not a guarantee of general answer accuracy.
 
 | Split | Outcome summary | Source CSV |
 |---|---|---|
-| dev | TO BE FILLED FROM REAL RUNS | TO BE FILLED FROM REAL RUNS |
-| test | TO BE FILLED FROM REAL RUNS | TO BE FILLED FROM REAL RUNS |
+| dev | 1/1 passed (diagnostic only; not a final score) | `eval/results/eval-20261120-033847-613257.csv` (local, Git-ignored) |
+| test | 4/4 passed in this run | `eval/results/eval-20261120-033847-613257.csv` (local, Git-ignored) |
 
 ### Failures and fixes
 
