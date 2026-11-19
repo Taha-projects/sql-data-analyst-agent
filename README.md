@@ -2,8 +2,6 @@
 
 Ask questions in plain English about the Olist Brazilian e-commerce dataset and inspect the SQL and results.
 
-**Live demo:** [Add the deployed app URL here when one exists](#)
-
 ## Architecture
 
 ```text
