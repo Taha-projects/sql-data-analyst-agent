@@ -9,6 +9,11 @@ MAX_ATTEMPTS = 3
 LLM_TEMPERATURE = 0
 EXPLAIN_MAX_ROWS = 20
 
+# These rates match the selected free model; update them when MODEL_NAME changes.
+INPUT_COST_PER_MILLION_TOKENS = 0.0
+OUTPUT_COST_PER_MILLION_TOKENS = 0.0
+TOKENS_PER_MILLION = 1_000_000
+
 DB_PATH = os.getenv("DB_PATH") or str(
     Path(__file__).resolve().parent.parent / "data" / "retail.duckdb"
 )
