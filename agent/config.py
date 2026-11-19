@@ -28,3 +28,18 @@ ALLOWED_TABLES = frozenset(
         "product_category_translation",
     }
 )
+
+RELATIONSHIPS: tuple[str, ...] = (
+    "orders.customer_id = customers.customer_id",
+    "orders.order_id = order_items.order_id",
+    "orders.order_id = order_payments.order_id",
+    "orders.order_id = order_reviews.order_id",
+    "order_items.product_id = products.product_id",
+    "order_items.seller_id = sellers.seller_id",
+    "products.product_category_name = "
+    "product_category_translation.product_category_name",
+    "customers.customer_zip_code_prefix = "
+    "geolocation.geolocation_zip_code_prefix",
+    "sellers.seller_zip_code_prefix = "
+    "geolocation.geolocation_zip_code_prefix",
+)
