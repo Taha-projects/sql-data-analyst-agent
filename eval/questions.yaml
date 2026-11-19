@@ -1,1 +1,7 @@
-questions: []
+questions:
+  - id: "orders-count"
+    question: "How many orders are in the dataset?"
+    gold_sql: "SELECT COUNT(*) AS order_count FROM orders"
+    category: "counts"
+    expect: "answer"
+    split: "dev"
